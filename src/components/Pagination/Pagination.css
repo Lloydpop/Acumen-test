@@ -1,0 +1,23 @@
+/* style pagination with tailwind classes */
+
+.pagination {
+  @apply rounded-2xl mr-12 flex justify-center mt-7;
+}
+
+.pagination__item {
+  @apply relative inline-flex items-center justify-center w-[40px] h-[40px]  text-sm font-medium text-gray-500 hover:bg-gray-50;
+}
+.pagination__item a {
+  @apply px-4 py-2;
+}
+.pagination__item-previous {
+  @apply relative  w-[40px] h-[40px] rounded-[7px] mr-5  bg-[#919EAB] flex justify-center items-center py-2 text-sm font-medium text-white;
+}
+
+.pagination__item-next {
+  @apply relative  w-[40px] h-[40px] rounded-[7px] ml-5 bg-[#919EAB] flex justify-center items-center  px-2 py-2 text-sm font-medium text-white;
+}
+
+.active {
+  @apply border rounded-[7px] border-text_color text-text_color pointer-events-none cursor-not-allowed;
+}

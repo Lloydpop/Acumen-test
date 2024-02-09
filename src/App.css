@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&display=swap");
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: #535f890e;
+}
+.side {
+  overflow-y: auto;
+}
+.side::-webkit-scrollbar {
+  width: 0.4em;
+}
+.side::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  width: 2px;
+}
+.side::-webkit-scrollbar-thumb {
+  @apply bg-gray-300;
+}

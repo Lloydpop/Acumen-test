@@ -1,7 +1,4 @@
-import {
-  IoEllipsisHorizontalCircleOutline,
-  IoEllipsisHorizontalOutline,
-} from "react-icons/io5";
+import { IoEllipsisHorizontalOutline } from "react-icons/io5";
 import { bytesToMB, formatDate } from "../../../utils";
 import { Dropdown } from "flowbite-react";
 import { ArrowDown2, ArrowUp2, CloseCircle, Eye } from "iconsax-react";

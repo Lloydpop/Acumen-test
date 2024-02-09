@@ -8,8 +8,6 @@ import {
   SafeHome,
 } from "iconsax-react";
 
-import { FaArrowsLeftRightToLine } from "react-icons/fa6";
-
 export const data = [
   {
     name: "Get Started",

@@ -1,7 +1,6 @@
-import { NavLink, useLocation, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { data } from "./NavData";
-import { FcFeedback } from "react-icons/fc";
-import { MessageAdd, MessageNotif } from "iconsax-react";
+import { MessageNotif } from "iconsax-react";
 import { FaArrowsLeftRightToLine } from "react-icons/fa6";
 
 export const NavItem = () => {
